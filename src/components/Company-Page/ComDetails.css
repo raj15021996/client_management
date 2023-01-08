@@ -1,0 +1,60 @@
+.head-container {
+    display: flex;
+    flex-direction: column;
+}
+.sections {
+    box-shadow: 0 1px 6px #00000029;
+    margin-left: .6rem;
+    margin-top: 60px;
+    padding: .5rem;
+}
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.main-heading {
+    display: flex;
+    
+}
+.main-heading i {
+    color: red;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.section-2 {
+    display: flex;
+    padding-bottom: 6px;
+    padding-top: 10px;
+}
+.editBtn{
+    width: 8rem;
+    height: 2rem;
+    background-color: #3cc3f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.editBtn:hover{
+    background-color:#ffff;
+    border: 1px solid rgba(0, 0, 0, 0.608);
+}
+.company-Name{
+    font-weight: bold;
+}
+.company-detail{
+  margin: 10px;
+}
+.domainsName{
+    margin: 10px;
+    margin-left: 20vw;
+}
+h3{
+    color: grey;
+    font-size: 1rem;
+}
+.section-2 p{
+    color:rgb(10, 51, 112);
+    font-weight: 500;
+}

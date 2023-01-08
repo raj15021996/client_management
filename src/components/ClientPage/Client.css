@@ -1,0 +1,38 @@
+.client-container{
+    margin: 5px;
+    width: 25vw;
+    height: 100vh;
+    box-shadow: 0 10px 5px rgba(32, 29, 29, 0.426);
+}
+.client-heading{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.innerHeading{
+   
+    display: flex;
+    justify-content: space-between;
+   
+}
+.companyData{
+    margin: 10px;
+    border: 1px solid rgba(79, 76, 76, 0.553);
+    border-radius: 5px;
+    align-items: center;
+    
+}
+.companyData:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.473);
+}
+.com-1{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    padding: 2px;
+    margin: 0;
+}

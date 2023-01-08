@@ -1,0 +1,28 @@
+.nav-content{
+    background-color:rgb(10, 2, 58);
+    position: relative;
+    width: 5rem;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+img{
+    width:4rem;
+    cursor: pointer;
+}
+.btn{
+   
+    margin: 8px;
+    width: 3rem;
+    height: 3rem;
+    background-color:pink;
+}
+.btn:hover{
+    cursor: pointer;
+    width: 3.2rem;
+    height: 3.2rem;
+    border: 5px solid rgb(246, 236, 210);
+}
