@@ -1,5 +1,9 @@
+.entities-containers{
+    background-color: aliceblue;
+}
 .en-Nav {
-    box-shadow: 0 1px 6px #00000029;
+    background-color: #ffff;
+    box-shadow: 0 1px 6px  aliceblue;
     margin-left: .6rem;
 }
 
@@ -25,8 +29,9 @@
 }
 
 .main-content {
+    background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 1px 6px #00000029;
+    box-shadow: 0 1px 6px  aliceblue;
     margin: .6rem .6rem .6rem 1.3rem;
 }
 
@@ -57,13 +62,13 @@ table {
 }
 
 .table_collection {
-    box-shadow: 0px 1px 6px #00000029;
-    background-color: #F7FBFC;
-}
+    box-shadow: 0px 1px 6px  rgb(210, 233, 252);
+    background-color: aliceblue;
+ }
 
 .table_details {
-    box-shadow: 0px 1px 6px #00000029;
-    background-color: #F7FBFC;
+    box-shadow: 0px 1px 6px  rgb(210, 233, 252);
+    background-color: aliceblue;
 }
 
 .table_details th {
@@ -107,10 +112,6 @@ table {
     font-weight: bold;
 }
 
-.table_details>h2 { 
-    padding-left: 10px;
-    padding-bottom: 0;
-}
 .innerTableData{
     display: flex; 
     align-items: center;
@@ -139,10 +140,10 @@ table {
     margin-bottom: 1rem;
     cursor: pointer;
 }
-
-
-@media screen and (max-width:375px) {
-    .download_icon {
-        display: none;
-    }
+.penSquare-icon{
+    color:#1cafe0;
+    margin: 5px;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
 }

@@ -27,7 +27,7 @@
   margin-top: 10px;
   font-size: 1rem;
   cursor: pointer;
-  background-color: #ffff;
+  background-color:transparent;
 }
 .dropbtn {
   background-color: #04AA6D;
@@ -112,10 +112,14 @@ p{
    .profile{
     top:10px;
     color: white;
+    margin: 0px;
+  }
+  .name-button{
+  color: #ffff;
+  font-size: 1.5rem;
   }
 }
 
-@media screen and (max-width:398px){
        
-}
+
   

@@ -1,10 +1,9 @@
 .client-content{
+    background-color: aliceblue;
     margin: 5px;
-    /* width: 25vw; */
-    box-shadow: 0 10px 5px rgba(32, 29, 29, 0.426);
+    box-shadow: 0 3px 5px rgba(32, 29, 29, 0.426);
 }
 .client-heading{
-    margin: 5px 5px 5px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,7 +20,7 @@
     border: 1px solid rgba(79, 76, 76, 0.553);
     border-radius: 5px;
     align-items: center;
-    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.307);
 }
 .companyData:hover{
     cursor: pointer;
@@ -41,19 +40,25 @@
     font-size: 1rem;
     margin: 10px 2px 0px 2px;
 }
+.sort-btn{
+    cursor: pointer;
+}
 .select-date{
-    margin: 5px 10px;
+    margin: 5px 0px 5px 10px;
     height: 2rem;
-    width:23.7vw;
+    width: 96%;
+    border-radius: 5px;
+    font-size: 1rem;
 }
 .search{
     margin: 5px;
+    background-color: #ffffff;
     align-items: center;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(190, 189, 189);
     display: flex;
     justify-content: space-between;
-    border-radius: 3px;
-    padding: 0.3rem;
+    border-radius: 5px;
+    padding: 0.4rem;
 }
 input{
     font-size: 0.8rem;
@@ -74,11 +79,21 @@ input{
 {
     color: rgb(0, 208, 255);
     font-size: 2rem;
+    cursor: pointer;
 }
 
-@media screen and (max-width:398px){
+@media screen and (max-width:650px){
        
-    .client-heading{
-        margin: 73px 5px 5px 0px;
+   
+    .client-content{
+        box-shadow: 0 1px 5px rgba(32, 29, 29, 0.426);
+    }
+    
+}
+
+
+@media screen and (max-width:398px){
+    .client-content{
+        box-shadow: 0 1px 5px rgba(32, 29, 29, 0.426);
     }
 }
