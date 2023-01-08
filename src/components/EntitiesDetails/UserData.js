@@ -3,10 +3,8 @@ import "./Entities.css";
 import { FaEye } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa";
 import { FaPenSquare } from "react-icons/fa";
-import { UserContext } from "../../App";
 
 export default function UserTable({ entity }) {
-//   const { selectedCompany } = useContext(UserContext);
 
   return (
     <>
@@ -84,7 +82,7 @@ export default function UserTable({ entity }) {
             <th>Discount</th>
           </thead>
           <tbody>
-            <tr className="table_collection corporate_collection_details">
+            <tr className="table-content content-details">
               <td>Tamil Language Translation:EZ Assured</td>
               <td>Words</td>
               <td>0.1 AED</td>

@@ -79,7 +79,7 @@ export default function Entities() {
                                 {selectedCompany.entities.map((ent) => {
                                     return (
                                         <>
-                                            <tr className="table_collection">
+                                            <tr className="table-content">
                                                 <td>{ent.location}</td>
                                                 <td>{ent.name}</td>
                                                 <td>{ent.code}</td>

@@ -3,6 +3,7 @@ import "./ComDetails.css";
 import { FaRegFilePdf } from "react-icons/fa";
 import Entities from '../EntitiesDetails/Entities';
 import { UserContext } from "../../App";
+
 export default function CompanyDetails() {
   const { selectedCompany } = useContext(UserContext);
   const [showAll, setShowAll] = useState(false);

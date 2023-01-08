@@ -23,14 +23,14 @@ function App() {
         <div className="p-data">
           <button className="name-button">Hi Raj,</button>
         </div>
-        <div class="dropdown">
+        <div className="dropdown">
           <img
             className="p-image"
             src="profile.png"
             alt="profile"
             style={{ height: "40px", width: "40px" }}
           />
-          <div class="dropdown-content">
+          <div className="dropdown-content">
             <a href="/">Account</a>
             <a href="/">Log out</a>
           </div>

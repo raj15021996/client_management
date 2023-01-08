@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Client.css";
 import { FaSortAmountDownAlt } from "react-icons/fa";
 import { FaSortAmountUpAlt } from "react-icons/fa";
