@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import ClientsEntry from './components/ClientPage/ClientsEntry';
-import Profiles from './components/Company-Page/CompanyDetails';
+import CompanyDetails from './components/Company-Page/CompanyDetails';
 
 function App() {
 
@@ -23,14 +23,14 @@ function App() {
         </div>
 
       </div>
-      <div>
+      <div className='navbar'>
         <Navbar />
       </div>
-      <div>
+      <div className='client-content'>
         <ClientsEntry />
       </div>
-      <div>
-        <Profiles />
+      <div className='user-content'>
+        <CompanyDetails />
       </div>
     </div>
   );

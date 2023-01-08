@@ -35,10 +35,9 @@ export default function CompanyDetails() {
                         </div>
                     </div>
                 </div>
+                <Entities/>
             </div>
-           <div>
-           <Entities/>
-           </div>
+           
             
         </>
     )

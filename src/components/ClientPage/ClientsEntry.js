@@ -3,7 +3,7 @@ import './Client.css'
 import { FaSortAmountDownAlt } from 'react-icons/fa';
 import { FaSortAmountUpAlt } from 'react-icons/fa';
 import { FaPlusSquare } from 'react-icons/fa';
-
+import { FaSearch } from 'react-icons/fa';
 export default function ClientsEntry() {
     const [sort, setSort] = useState(false);
     const [selectCom, setSelectCom] = useState(false);
@@ -62,7 +62,7 @@ export default function ClientsEntry() {
     }
     return (
         <>
-            <div className='client-container'>
+           
                 <div className='client-heading'>
                     <div className='innerHeading'>
                         <div className='title'>
@@ -81,11 +81,15 @@ export default function ClientsEntry() {
                         <FaPlusSquare />
                     </div>
                 </div>
+                <div className='search-container'>
                 <div className='search'>
                     <input type='text' placeholder='company,Entry, User, Domain' />
+                <button className='search-button'><FaSearch/></button>
                 </div>
-                <div className='select-date'>
-                    <select>
+                </div>
+                
+                <div >
+                    <select className='select-date'>
                         <option>August 2022</option>
                         <option>october 2022</option>
                         <option>December 2022</option>
@@ -122,7 +126,7 @@ export default function ClientsEntry() {
                 ))}
 
 
-            </div>
+           
         </>
     )
 }

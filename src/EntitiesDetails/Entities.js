@@ -42,7 +42,7 @@ export default function Entities() {
                             <div>
                                 <h3>3 Entities</h3>
                             </div>
-                            <div>
+                            <div className='addBtn'>
                                 <FaPlusSquare />
                             </div>
                         </div>

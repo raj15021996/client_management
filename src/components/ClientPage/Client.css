@@ -1,11 +1,10 @@
-.client-container{
+.client-content{
     margin: 5px;
-    width: 25vw;
-    height: 100vh;
+    /* width: 25vw; */
     box-shadow: 0 10px 5px rgba(32, 29, 29, 0.426);
 }
 .client-heading{
-    margin: 5px;
+    margin: 5px 5px 5px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +31,54 @@
     display: flex;
     justify-content: space-between;
 }
-p{
-    padding: 2px;
-    margin: 0;
+.t-name{
+    color:rgb(33, 24, 111);
+    font-size: 2rem;
+    font-weight: 500;
+}
+.sort-btn,.c-time{
+    color: rgb(0, 208, 255);
+    font-size: 1rem;
+    margin: 10px 2px 0px 2px;
+}
+.select-date{
+    margin: 5px 10px;
+    height: 2rem;
+    width:23.7vw;
+}
+.search{
+    margin: 5px;
+    align-items: center;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    padding: 0.3rem;
+}
+input{
+    font-size: 0.8rem;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.search-button{
+    border: none;
+    background-color: #ffff;
+    color: rgb(0, 208, 255);
+    cursor: pointer;
+}
+.search-button:hover{
+    color: rgb(6, 65, 127);
+}
+.addBtn
+{
+    color: rgb(0, 208, 255);
+    font-size: 2rem;
+}
+
+@media screen and (max-width:398px){
+       
+    .client-heading{
+        margin: 73px 5px 5px 0px;
+    }
 }
