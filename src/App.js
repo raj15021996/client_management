@@ -1,8 +1,8 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import ClientsEntry from "./components/ClientPage/ClientsEntry";
-import Profiles from "./components/Company-Page/CompanyDetails";
-import { createContext, useEffect, useState } from "react";
+import CompanyDetails from "./components/Company-Page/CompanyDetails";
+import { createContext, useState } from "react";
 import details from './components/Datas'
 export const UserContext = createContext(null);
 
@@ -42,7 +42,7 @@ function App() {
           <ClientsEntry />
         </div>
         <div>
-          <Profiles />
+          <CompanyDetails />
         </div>
       </UserContext.Provider>
     </div>
